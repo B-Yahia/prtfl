@@ -1,0 +1,35 @@
+.techno-section{
+    background: #e0e5ec;
+    min-height: 200px;
+    height: auto;
+    margin: 20px 0px ;
+    box-sizing: border-box;
+    
+    padding: 20px 10px;
+    border-radius: 7px;
+}
+.techno-container{
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.section-title{
+    padding: 10px 40px;
+    margin: 10px;
+    width: fit-content;
+    margin: 10px 0 ;
+
+}
+.techno-content{
+    margin-top: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+    
+}
+.techno-content-item{
+    margin: 10px 0 ;
+}
+.techno-content-item-text{ 
+    width: max-content;
+}

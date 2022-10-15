@@ -1,0 +1,14 @@
+.options-menu{
+    min-height: 50px;
+    padding:  20px;
+    height: 60px;
+    width: fit-content;
+    
+}
+
+
+.menu-opt{
+ padding: 10px;
+ margin: auto;
+ width: max-content;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+.logo {
+font-family: 'Poppins', sans-serif;
+  
+  
+  color: #cf1b1b;
+  font-size: 26px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+
+
+.logo::after {
+  content: "THE FULLSTACK GUY";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 20px;
+  left: 33px;
+  transition: 1s;
+}
+
+
+
+.logo:hover:after {
+  top: 10px;
+  left: 10px;
+} 
+

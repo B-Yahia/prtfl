@@ -1,0 +1,27 @@
+.service-section{
+    background: #e0e5ec;
+    min-height: 200px;
+    height: auto;
+    margin: 20px 0px ;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border-radius: 7px;
+    
+}
+
+.service-container{
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+.service-title{
+    padding: 10px 40px;
+    margin: 10px;
+    
+    width: fit-content;
+}
+
+
+.stack-content{
+    padding: 3px;
+    margin: 3px;
+}

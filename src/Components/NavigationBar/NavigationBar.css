@@ -1,0 +1,21 @@
+
+.logo-1{
+    
+    width: 350px;
+    min-height: 50px;
+    padding:  20px ;
+    height: 80px;
+    
+}
+
+.nav-bar{
+    background: #a1b0c5;
+    height: auto;
+    padding: 10px;
+    margin:0 0 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+

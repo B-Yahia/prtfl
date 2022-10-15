@@ -1,0 +1,31 @@
+.neumo{
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+   transition: all 0.3s ease;
+   border-radius: 3px;
+   padding: 10px 25px;
+   transition: all 0.3s ease;
+   position: relative;
+
+}
+
+.neumo1:before {
+    height: 0%;
+    width: 2px;
+  }
+.neumo1:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+
+  .glassmo{
+    background: rgba(255,255,255,0.1);
+-webkit-backdrop-filter: blur(2px);
+backdrop-filter: blur(2px);
+border: 1px solid rgba(255,255,255,0.05);
+  }
