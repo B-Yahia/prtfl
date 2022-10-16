@@ -4,24 +4,29 @@
     height: auto;
     margin: 10px 0;
     border-radius: 7px;
+    padding: 0 20px;
   
 }
 .hero-text{
-    margin: 10px 20px 30px 40px;
-    padding: 20px;
+    margin: 10px 20px ;
+    padding: 10px;
     align-self: center;
-    min-height: 200px;
-    color: #fca903;
+    min-height: 200px;   
 }
+.txt-hero{
+    max-width: 100%; 
+}
+.txt-hero-1{
+    color: #fca903; 
+    max-width: 100%; 
+}
+
 .hero-image{
     position: relative;
     min-height: 270px;
 }
-.txt-hero{
-    
-}
 .img-hero{
-    position:absolute;
+    box-shadow: 0 8px 0px -4px #fca903;
     bottom: 0px;
     right: 20%;
 }

@@ -3,16 +3,42 @@
     min-height: 150px;
     padding: 30px 0;
     height: auto;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
+    padding: 0 20px 20px 20px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     width: 100%;
     
 }
-.nano{
-    border: 1px solid;
+.logo-1{
+    
+    max-width: 300px;
+    min-height: 50px;
+    padding:  5px 10px;
+    height: auto;
+    font-family: 'Muli', sans-serif;
+    scale: 0.5;
+    
+
+    
+}
+.footer-item{
     width: 100%;
+    
+}
+.footer-logo{
+    width: 100%;
+}
+/* .nano{
+    border: 1px solid green;
+    
 }
 .nano1{
     border: 1px solid red;
+    padding: 20px;
+    width: fit-content;
+    justify-content: center;
 }
+.nano2{
+    border: 1px solid blue;
+} */

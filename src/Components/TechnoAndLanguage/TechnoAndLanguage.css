@@ -1,11 +1,9 @@
 .techno-section{
     background: #e0e5ec;
-    min-height: 200px;
+    min-height: 300px;
     height: auto;
     margin: 20px 0px ;
-    box-sizing: border-box;
-    
-    padding: 20px 10px;
+    padding: 20px 20px;
     border-radius: 7px;
 }
 .techno-container{

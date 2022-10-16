@@ -5,12 +5,15 @@
 }
  
 *::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px whitesmoke;
+  background-color: white;
 }
  
 *::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
+  background-color: #e0e5ec;
+  outline: 1px solid #fca903;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 .App {
   text-align: center;
