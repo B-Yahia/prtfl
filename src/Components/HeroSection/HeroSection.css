@@ -12,8 +12,11 @@
     margin: 10px 20px ;
     padding: 10px;
     align-self: center;
-    min-height: 200px; 
+    
     font-family: 'Montserrat', sans-serif;  
+}
+.txt-hero-container{
+    min-height: 300px;
 }
 .txt-hero{
     max-width: 100%; 

@@ -28,7 +28,7 @@ function HeroSection(){
         <div>
             <Grid container className="heroSection" direction={{ xs:"column", md :"row"}} justifyContent={{ xs:"center" , md : "space-between"}}>
                 <Grid item  className="hero-text">
-                    <Stack className="neumo ">
+                    <Stack className="neumo txt-hero-container " alignItems="center" justifyContent="center">
                         <Typography variant="h4" className="txt-hero ">Hi !</Typography>
                         <Typography variant="h4" className="txt-hero "> My name is Yahya and I am </Typography>
                         <Typography variant="h3" className="txt-hero-1">{text}</Typography>
