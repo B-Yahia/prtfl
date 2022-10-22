@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, Avatar, Grid, Paper, Stack, Typography } from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary, Avatar, Grid, Stack, Typography } from "@mui/material";
 import webDev from "../../Images/web-dev.png"
 import webDis from "../../Images/web-design.png"
 import webMar from "../../Images/web-Marketing.png"

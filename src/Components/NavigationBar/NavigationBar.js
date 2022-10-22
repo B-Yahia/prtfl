@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import Menu from "../Menu/Menu";
 import logoPrtfl from "../../Images/Logo1.png"
 import "./NavigationBar.css"

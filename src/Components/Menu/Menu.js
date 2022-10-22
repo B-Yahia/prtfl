@@ -1,4 +1,4 @@
-import { Divider, Grid, Stack, Typography} from "@mui/material";
+import { Divider, Stack, Typography} from "@mui/material";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link } from "react-router-dom";
 import "../Neumo.css"
@@ -17,9 +17,9 @@ function Menu(){
             spacing={3}
             >
                 
-                <Typography variant="h6 " className=" menu-opt"><Link to={"/"} style={{textDecoration: 'none' , color:'black'}}>Home</Link></Typography>
-                <Typography variant="h6 " className=" menu-opt"><Link to={"/about"} style={{textDecoration: 'none' , color:'black'}}>About me</Link></Typography>
-                <Typography variant="h6 " className=" menu-opt"><AnchorLink href='#contact-me' style={{textDecoration: 'none' , color:'black'}}>Contact me</AnchorLink></Typography>
+                <p variant="h6 " className=" menu-opt"><Link to={"/"} style={{textDecoration: 'none' , color:'black'}}>Home</Link></p>
+                <p variant="h6 " className=" menu-opt"><Link to={"/about"} style={{textDecoration: 'none' , color:'black'}}>About me</Link></p>
+                <p variant="h6 " className=" menu-opt"><AnchorLink href='#contact-me' style={{textDecoration: 'none' , color:'black'}}>Contact me</AnchorLink></p>
                 {/* <Typography variant="h6 " className=" menu-opt">Login</Typography> */}
             </Stack>
        

@@ -13,4 +13,8 @@
  margin: auto;
  width: max-content;
  font-size: large;
+ letter-spacing: 2px;
+ font-size: medium;
+ font-weight: bolder;
+ text-transform: uppercase;
 }
