@@ -11,7 +11,7 @@ function NavigationBar(){
             <Grid container justifyContent={{ xs:"center" , md : "space-between"}} alignItems="center" 
             direction={{ sx:"column" , sm:"row"}}
             >
-                <Grid item >
+                <Grid item xs="auto">
                     <img src={logoPrtfl} alt="The fullstack guy Logo" className="logo-1 neumo "/>
                 </Grid>
                 <Grid item  >

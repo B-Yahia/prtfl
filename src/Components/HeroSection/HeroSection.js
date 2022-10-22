@@ -6,9 +6,9 @@ import { Stack } from "@mui/system";
 import { useEffect, useState } from "react";
 
 function HeroSection(){
-    const skills = ["Web Developper", "Front end", "Back end " ,"Happy to help you"];
+    const skills = ["Web Developper", "Front end", "Back-end" ,"Happy to help you"];
     const [count, setCount] = useState(0);
-    const [text,setText] = useState("");
+    const [text,setText] = useState("Java softwarep");
     useEffect(() => {
         const timer = setTimeout(() => {
             changeSkill();
@@ -20,18 +20,21 @@ function HeroSection(){
             setText(skills[count])
         }else{
             setCount(0)
-            setText("")
+            setText("Fullstack")
         }
     }
 
     return(
         <div>
-            <Grid container className="heroSection" direction={{ xs:"column", md :"row"}} justifyContent={{ xs:"center" , md : "space-between"}}>
+            <Grid container className="heroSection" direction={{ xs:"column", md :"row"}}
+             justifyContent={{ xs:"center" , md : "space-between"}}
+             alignItems="center"
+             >
                 <Grid item  className="hero-text">
-                    <Stack className="neumo txt-hero-container " alignItems="center" justifyContent="center">
-                        <Typography variant="h4" className="txt-hero ">Hi !</Typography>
-                        <Typography variant="h4" className="txt-hero "> My name is Yahya and I am </Typography>
-                        <Typography variant="h3" className="txt-hero-1">{text}</Typography>
+                    <Stack className="neumo txt-hero-container " spacing={2} alignItems="center" justifyContent="center">
+                        <p className="txt-hero ">HI !</p>
+                        <p className="txt-hero "> MY NAME IS YAHIA and I AM </p>
+                        <p className="txt-hero-1">{text}</p>
                     </Stack>
                 </Grid>
                 <Grid item  className="hero-image">

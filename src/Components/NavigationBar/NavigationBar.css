@@ -1,9 +1,13 @@
 
 .logo-1{
-    max-width: 400px;
+    max-width: 350px;
     min-width: 300px;
     height: auto;
-    padding:  5px 5px;
+    padding: 5px;
+    margin: 0px;
+}
+.logo-container{
+
 }
 
 .nav-bar{

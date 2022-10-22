@@ -9,6 +9,7 @@ function HomePage(){
     return(
         <div className="home-page">
             <NavigationBar className="nav"></NavigationBar>
+            
             <HeroSection></HeroSection>
             <Services></Services>
             <TechnoAndLanguage></TechnoAndLanguage>

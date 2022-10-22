@@ -17,7 +17,7 @@ export default function TechnoAndLanguage() {
                 justifyContent="center"
                 alignItems="center" >
                 <Grid item  className="techno-container" >
-                    <Typography variant="h4" className="section-title neumo">Languages and technologies</Typography>
+                    <p variant="h4" className="section-title neumo title">Languages and technologies</p>
                 </Grid>
                 <Grid item xs={12}></Grid>
                 <Stack 

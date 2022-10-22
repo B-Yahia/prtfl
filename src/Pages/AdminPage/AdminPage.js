@@ -1,18 +1,15 @@
-import { Grid, Typography } from '@mui/material'
 import React from 'react'
-import AboutMe from '../../Components/AboutMe/AboutMe'
+import Dashboard from '../../Components/Dashboard/Dashboard'
 import Footer from '../../Components/Footer/Footer'
 import NavigationBar from '../../Components/NavigationBar/NavigationBar'
-import "./AboutPage.css"
+import "./AdminPage.css"
 
-function AboutPage() {
+export default function AdminPage() {
   return (
-    <div className='about-page'>
+    <div className='dashboard-page'>
         <NavigationBar></NavigationBar>
-        <AboutMe></AboutMe>
+        <Dashboard></Dashboard>
         <Footer></Footer>
     </div>
   )
 }
-
-export default AboutPage

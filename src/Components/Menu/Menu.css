@@ -1,8 +1,9 @@
 .options-menu{
     min-height: 50px;
-    padding:  20px;
+    padding:  0 20px;
     height: 60px;
-    width: fit-content;
+    min-width: fit-content;
+    
     
 }
 
@@ -11,4 +12,5 @@
  padding: 10px;
  margin: auto;
  width: max-content;
+ font-size: large;
 }

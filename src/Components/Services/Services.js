@@ -14,7 +14,7 @@ function Services() {
         <div className="service-section">
             <Grid container className="service-container"  justifyContent="center">
                 <Grid item >
-                    <Typography variant="h4" className="service-title neumo">Services</Typography>
+                    <p variant="h4" className="service-title neumo title">Services</p>
                 </Grid>
             </Grid>   
             <Grid container className="services-cards" justifyContent="space-around" alignItems="center"  spacing={2}>
@@ -27,7 +27,7 @@ function Services() {
                             </Stack>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant="body2"> The description of the service</Typography>
+                            <Typography variant="body2"> </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
@@ -40,7 +40,7 @@ function Services() {
                             </Stack>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant="body2"> The description of the service</Typography>
+                            <Typography variant="body2"> </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
@@ -53,7 +53,7 @@ function Services() {
                             </Stack>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant="body2"> The description of the service</Typography>
+                            <Typography variant="body2"> </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
@@ -66,12 +66,12 @@ function Services() {
                             </Stack>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant="body2"> The description of the service</Typography>
+                            <Typography variant="body2"> </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
                 <Grid item >
-                    <Accordion defaultExpanded={true}>
+                    <Accordion>
                         <AccordionSummary>
                             <Stack  direction={{ xs: 'column', md: 'row' }}  alignItems="center">
                             <Avatar className="stack-content" alt="Remy Sharp" src={webSeo} variant="square"/>
@@ -79,7 +79,7 @@ function Services() {
                             </Stack>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant="body2"> The description of the service</Typography>
+                            <Typography variant="body2"> </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
