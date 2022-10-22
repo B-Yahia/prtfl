@@ -1,4 +1,4 @@
-import { Divider, Stack, Typography} from "@mui/material";
+import { Divider, Stack} from "@mui/material";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link } from "react-router-dom";
 import "../Neumo.css"

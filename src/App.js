@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <Grid container justifyContent="center">
       <Routes>
-        <Route path='/' element={<HomePage/>} />
+        <Route path='/' exact element={<HomePage/>} />
+        <Route path='/prtfl' exact element={<HomePage/>} />
+
         <Route  path='/dashboard' element={<AdminPage/>}/>
         <Route path='/about' element={<AboutPage/>}/>
       </Routes>

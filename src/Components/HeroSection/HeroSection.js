@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import mebg from "../../Images/me-bg.png"
 import "./HeroSection.css"
 import "../Neumo.css"
@@ -38,7 +38,7 @@ function HeroSection(){
                     </Stack>
                 </Grid>
                 <Grid item  className="hero-image">
-                    <img src={mebg} className="img-hero" />
+                    <img src={mebg} className="img-hero"  alt="me"/>
                 </Grid>
             </Grid>
         </div>
