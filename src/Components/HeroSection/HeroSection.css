@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 .heroSection{
     background: #e0e5ec;
-    min-height: 380px;
+    min-height: 400px;
     height: auto;
     margin: 10px 0;
     border-radius: 7px;
@@ -16,7 +16,7 @@
      
 }
 .txt-hero-container{
-    min-height: 300px;
+    min-height: 250px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .txt-hero{

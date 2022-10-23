@@ -32,8 +32,8 @@ function HeroSection(){
              >
                 <Grid item  className="hero-text">
                     <Stack className="neumo txt-hero-container " spacing={2} alignItems="center" justifyContent="center">
-                        <p className="txt-hero ">HI !</p>
-                        <p className="txt-hero "> MY NAME IS YAHIA and I AM </p>
+                        <p className="txt-hero title">HI !</p>
+                        <p className="txt-hero title"> MY NAME IS YAHIA and I AM </p>
                         <p className="txt-hero-1">{text}</p>
                     </Stack>
                 </Grid>

@@ -16,7 +16,12 @@ export default function ContactForm() {
             name:name,
             email:email,
             message:msg
-        })
+        },
+        setName(""),
+        setEmail(""),
+        setMsg("")
+        )
+        
         .then(function (response) {
             console.log(response);
           })
