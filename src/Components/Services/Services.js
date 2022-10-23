@@ -23,7 +23,7 @@ function Services() {
                         <AccordionSummary>
                             <Stack direction={{ xs: 'column', sm: 'row' }} alignItems="center">
                                 <Avatar className="stack-content" alt="Remy Sharp" src={webDev} variant="square"/>
-                                <Typography className="stack-content" >Web Devlopment</Typography>
+                                <Typography className="stack-content" >Web Development</Typography>
                             </Stack>
                         </AccordionSummary>
                         <AccordionDetails>
